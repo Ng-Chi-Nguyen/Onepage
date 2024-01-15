@@ -1,0 +1,625 @@
+/* Headder */
+.Headder{
+      display: flex;
+      border-bottom: 1px solid #ddd;
+      background: #fff;
+      position: fixed;
+      z-index: 999;
+      width: 100%;
+}
+.Headder .logo{
+      font-size: 30px;
+      font-weight: 400;
+      text-decoration: none;
+      color: #124062;
+      justify-content: flex-start;
+      margin-bottom: 0;
+}
+.Headder .nav{
+      display: flex;
+      align-items: center;
+}
+.Headder .nav ul{
+      margin-top: 20px;
+}
+.Headder .nav ul li{
+      padding-left: 20px;
+}
+.Headder .nav{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0;
+}
+.Headder ul{
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+
+}
+.Headder .list{
+      color: #5e5e5e;
+      text-decoration: none;
+      justify-content: flex-end;
+}
+.Headder .list:hover{
+      color: #3194DB;
+}
+.Headder .inner-list .button{
+      padding: 5px 15px;
+      background: #3194DB;
+      border-radius: 5px;
+      border: 0;
+      color: #fff;
+}
+/* End Headder */
+/* Templete */
+.templete{
+      margin-bottom: 100px;
+      position: relative;
+      background: url(../BT10/images/BT12-templete_bg.jpg);
+}
+.templete .inner-top .inner-title{
+      font-size: 70px;
+      font-weight: 700;
+      color: #124062;
+      padding-top: 60px;
+}
+.templete .inner-top .inner-desc{
+      font-size: 27px;
+      color: #5e5e5e;
+}
+.templete .inner-top .inner-button{
+      margin-top: 30px;
+      background: #3194DB;
+      padding: 15px 47px;
+      color: #fff;
+      font-weight: 600;
+      font-size: 19px;
+      border-radius: 5px;
+      border: 0;
+}
+.templete .inner-main{
+      margin-top: 100px;
+}
+.templete .inner-main .inner-box{
+      background: #fff;
+      padding: 50px 30px;
+      margin-bottom: 50px;
+      box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
+      border-radius: 8px;
+}
+.templete .inner-main .inner-box:hover{
+      .inner-title{
+            color: #3194DB;
+      }
+}
+.templete .inner-main .inner-box .inner-icon{
+      color: #3194DB;
+      font-size: 30px;
+}
+.templete .inner-main .inner-box .inner-title{
+      color: #124062;
+      font-size: 19px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+}
+.templete .inner-main .inner-box .inner-desc{
+      font-size: 15px;
+      margin-bottom: 0;
+}
+/* End Templete */
+/* Tieu de */
+.inner-header{
+      text-align: center;
+}
+.inner-header .inner-title{
+      font-size: 35px;
+      color: #124062;
+}
+.inner-header .inner-desc{
+      font-size: 17px;
+      color: #919191;
+      padding: 15px 0;
+}
+/* Het tieu de*/
+/* About us */
+.About-us{
+      margin-bottom: 0;
+}
+.About-us .inner-main .main-left ul{
+      padding-left: 0;
+}
+.About-us .inner-main .main-left ul li{
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+
+}
+
+.About-us .inner-main .main-left ul li i{
+      margin-right: 15px;
+      color: #3194DB;
+      margin-bottom: 15px;
+}
+.About-us .inner-main .main-right .inner-desc{
+      margin-bottom: 30px;
+}
+.About-us .inner-main .main-right .inner-button{
+      padding: 8px 34px;
+      border: 2px solid #3194DB;
+      background: transparent;
+      border-radius: 8px;
+}
+.About-us .inner-main .main-right a{
+      text-decoration: none;
+      color: #3194DB;
+      font-weight: 500;
+}
+.About-us .inner-main .main-right a:hover{
+      background: #3194DB;
+      color: #fff;
+}
+/* End About us */
+/* Number */
+.Number{
+      margin-bottom: 80px;
+      padding: 70px 0;
+      background: #F5F8FB;
+}
+.Number .inner-number{
+      font-size: 50px;
+      font-weight: 700;
+      color: #124062;
+}
+.Number .inner-desc{
+      font-size: 14px;
+      color: #1e6ca6;
+      font-weight: 600;
+      padding-top: 8px;
+}
+/* Emd Number */
+/* Voluptatem */
+.Voluptatem{
+      margin-bottom: 80px;
+}
+.Voluptatem .inner-image img{
+      object-fit: cover;
+      width: 100%;
+}
+.Voluptatem .inner-content .inner-title{
+      color: #124062;
+      font-size: 24px;
+}
+.Voluptatem .inner-content .inner-desc-italic{
+      font-style: italic;
+}
+.Voluptatem .inner-content .inner-list ul{
+      padding-left: 0;
+}
+.Voluptatem .inner-content .inner-list ul li{
+      list-style-type: none;
+      position: relative;
+}
+.Voluptatem .inner-content .inner-list ul li::before{
+      content: "\f560";
+      font-weight: 900;
+      font-family: "Font Awesome 6 Free";
+      color: #3194DB;
+      margin-right: 10px;
+}
+.Voluptatem .inner-content .inner-list ul li p{
+      padding-left: 28px;
+      padding-bottom: 8px;
+}
+/* End Voluptatem */
+/* Testimonials */
+.Testimonials{
+      margin-bottom: 100px;
+}
+.Testimonials .inner-content{
+      text-align: center;
+      background: #F3F9FD;
+      border-radius: 7px;
+      padding: 30px;
+      font-size: 15px;
+      font-style: italic;
+      position: relative;
+}
+.Testimonials .inner-content::before{
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-left: 26px solid transparent;
+      border-right: 26px solid transparent;
+      border-top: 26px solid #F3F9FD;
+      top: 100%;
+      left: calc(50% - 20px);
+}
+.Testimonials .inner-content .content::before{
+      content: "\f10d";
+      font-weight: 900;
+      font-family: "Font Awesome 6 Free";
+      font-size: 22px;
+      color: #c9e3f5;
+      margin-right: 5px;
+}
+.Testimonials .inner-content .content::after{
+      content: "\f10e";
+      font-weight: 900;
+      font-family: "Font Awesome 6 Free";
+      font-size: 22px;
+      color: #c9e3f5;
+      margin-left: 5px;
+}
+.Testimonials .inner-info{
+      text-align: center;
+}
+.Testimonials .inner-info .inner-image{
+      padding: 30px 0 20px 0;
+}
+.Testimonials .inner-info .inner-image img{
+      width: 100px;
+      height: auto;
+      object-fit: cover;
+      border-radius: 50%;
+}
+.Testimonials .inner-info .inner-name{
+      font-size: 17px;
+}
+
+.Testimonials .inner-info h3{
+      font-weight: 700;
+}
+.Testimonials .inner-info .inner-position
+{
+      color: #919191;
+}
+/* End Testimonials */
+/* Call to action*/
+.Call-To-Action{
+      background: #3194DB;
+      color: #fff;
+      padding: 50px;
+}
+.Call-To-Action .inner-title{
+      font-size: 30px;
+}
+.Call-To-Action .inner-desc{
+      font-size: 17px;
+}
+.Call-To-Action .inner-button{
+      margin-top: 30px;
+}
+.Call-To-Action .inner-button button{
+      padding: 20px;
+      border-radius: 8px;
+      border: 2px solid #fff;
+      background: transparent;
+      color: #fff;
+      font-weight: 600;
+}
+.Call-To-Action .inner-button button:hover{
+      background: #fff;
+      border: 2px solid #fff;
+      color: #3194DB;
+}
+/* End Call to action*/
+/* Pricing */
+.Pricing{
+      margin-bottom: 100px;
+      background: #FCFCFC;
+      padding: 100px;
+}
+.Pricing .inner-body .inner-box{
+      background: #ffffff;
+      padding: 40px 20px;
+      box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
+      border-radius: 8px;
+}
+.Pricing .inner-body .blue{
+      background: #3194DB;
+
+}
+.Pricing .inner-body .blue .inner-title{
+      color: #fff;
+}
+.Pricing .inner-body .inner-box h3{
+      font-size: 20px;
+      color: #124062;
+}
+.Pricing .inner-body .inner-box h4{
+      font-size: 40px;
+}
+.Pricing .inner-body .blue .usd sup{
+      color: #FFF;
+}
+.Pricing .inner-body .blue .usd{
+      color: #FFF;
+}
+.Pricing .inner-body .blue .usd .mon-bg-blue{
+      color: #FFF;
+}
+.Pricing .inner-body .blue ul .t{
+      color: #FFF;
+}
+.Pricing .inner-body .blue .bt-2{
+      color: #FFF;
+      background: transparent;
+      border: 2px solid #FFF;
+}
+.Pricing .inner-body .blue .bt-2:hover{
+      color: #3194DB;
+      background: #FFF;
+      border: 2px solid #FFF;
+}
+.Pricing .inner-body .inner-box h4{
+      color: #3194DB;
+      margin-bottom: 20px;
+}
+.Pricing .inner-body .inner-box .usd sup{
+      font-size: 20px;
+      top: -15px;
+      left: 8px;
+}
+.Pricing .inner-body .inner-box .usd span{
+      font-size: 17px;
+      color: #919191;
+      font-weight: 300;
+}
+.Pricing .inner-body .inner-box ul li{
+      list-style-type: none;
+      color: #1e6ca6;
+      margin-bottom: 10px;
+}
+.Pricing .inner-body .inner-box .na{
+      text-decoration: line-through;
+      color: #ccc;
+}
+.Pricing .inner-body .inner-box ul{
+      padding: 0;
+      margin-bottom: 50px;
+}
+.Pricing .inner-body .inner-box button{
+      padding: 10px 40px;
+      background: transparent;
+      color: #3194DB;
+      border: 2px solid #3194DB;
+      border-radius: 5px;
+      font-weight: 500;
+}
+.Pricing .inner-body .inner-box button:hover{
+      background: #3194DB;
+      border: 2px solid #3194DB;
+      color: #FFF;
+}
+/*End Pricing*/
+/* FREQUENTLY ASKED QUESTIONS */
+.Frequently-asked-questions{
+      background-color: #f8fbfe;
+      margin-bottom: 100px;
+}
+.Frequently-asked-questions .inner-list .List ul li span{
+            color: #5e5e5e;
+      
+}
+.Frequently-asked-questions .inner-list .list ul li p{
+      padding: 10px 0 0 30px;
+}
+.Frequently-asked-questions .inner-list ul{
+      list-style-type: none;
+}
+
+.Frequently-asked-questions .inner-list ul li{
+      padding: 30px 10px;
+      background: #FFF;
+      margin-bottom: 20px;
+      cursor: pointer;
+      font-weight: 600;
+}
+.Frequently-asked-questions .inner-list ul li:hover{
+      span{
+            color: #3194DB;
+      }
+}
+.Frequently-asked-questions .inner-list .show{
+      p{
+            padding: 10px 0 0 30px;
+      }
+      span{
+            color: #3194DB;
+      }
+}
+/* End FREQUENTLY ASKED QUESTIONS */
+/* Contact */
+.Contact{
+      margin-bottom: 100px;
+}
+.Contact .inner-main .inner-map{
+      margin-bottom: 50px;
+}
+.Contact .inner-main .inner-map iframe{
+      height: 250px;
+      width: 100%;
+}
+.Contact .inner-main .inner-list ul{
+      padding-left: 0;
+}
+.Contact .inner-main .inner-list ul li{
+      text-align: left;
+      display: flex;
+      position: relative;
+      align-items: center;
+      margin-bottom: 20px;
+}
+.Contact .inner-main .inner-list ul li .inner-icon{
+      background: #c9e3f5;
+      width: 44px;
+      height: 44px;
+      font-size: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #3194DB;
+      border-radius: 5px;
+      margin-right: 10px;
+}
+.Contact .inner-main .inner-list ul li:hover{
+      .inner-icon{
+            background: #208bd8;
+            color: #FFF;
+            transition: 1.5s;
+      }
+}
+.Contact .inner-main .inner-list ul li .info .inner-info{
+      font-size: 22px;
+      font-weight: 500;
+      color: #124062;
+}
+.Contact .inner-main .inner-list ul li .inner-desc{
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-bottom: 0;
+      color: #3194DB;
+      cursor: pointer;
+}
+.Contact .inner-form .form-control{
+      padding: 20px;
+      outline: none;
+}
+.Contact .inner-form input, .Contact .inner-form textarea{
+      outline: none;
+}
+.Contact .inner-form button{
+      padding: 10px 30px;
+      border-radius: 5px;
+      border: 1px solid #208bd8;
+      background: #208bd8;
+      color: #FFF;
+}
+.Contact .inner-form button:hover{
+      background: #3194DB;
+}
+/* End Contact */
+/* Onepage */
+.Onepage{
+      margin-bottom: 100px;
+}
+.Onepage .item-1{
+      padding: 20px;
+}
+.Onepage .item-1 .inner-title{
+      font-weight: 300;
+      padding-top: 10px;
+      color: #919191;
+}
+.Onepage .item-1 p{
+      margin-bottom: 0;
+}
+.Onepage .item-1 .inner-desc{
+      padding-bottom: 20px;
+}
+.Onepage .item-1 p span{
+      font-weight: 500;
+}
+.Onepage .item-2{
+      padding: 20px 0 0 0;
+}
+.Onepage .item-2 .inner-title{
+      font-size: 17px;
+      color: #124062;
+}
+.Onepage .item-2 ul{
+      padding-left: 0;
+}
+.Onepage .item-2 ul li{
+      list-style-type: none;
+      padding-bottom: 7px;
+      color: #919191;
+}
+.Onepage .item-2 ul li::before{
+      content: "\f054";
+      font-weight: 900;
+      font-family: "Font Awesome 6 Free";
+      padding-right: 10px;
+      font-size: 10px;
+      color: #208bd8;
+}
+.Onepage .item-3{
+      padding: 20px 0 0 0;
+}
+.Onepage .item-3 .inner-title{
+      font-size: 18px;
+      margin-bottom: 20px;
+}
+.Onepage .item-3 .inner-desc{
+      color: #919191;
+      padding-bottom: 20px;
+}
+.Onepage .item-3 .form-button{
+      border: 1px solid #3194DB;
+      height: 45px;
+      border-radius: 7px;
+      margin-left: 15px;
+}
+.Onepage .item-3 input{
+      border: transparent;
+      margin-left: 7px;
+}
+.Onepage .item-3 button{
+      padding: 10px 30px;
+      background: #208bd8;
+      border: 0;
+      margin-left: -15px;
+      color: #FFF;
+}
+.Onepage .item-3 button:hover{
+      background: #3194DB;
+}
+/* End Onepage */
+/* Foodter */
+.foodter{
+      padding: 20px 0 20px 0;
+      background: #F8FBFE;
+      display: flex;
+      align-items: center;
+}
+.foodter p{
+      margin-bottom: 0;
+}
+.foodter p .bold{
+      font-weight: 700;
+}
+.foodter p a{
+      text-decoration: none;
+      color: #208bd8;
+}
+.foodter p a:hover{
+      color: #3194DB;
+}
+.foodter .ali-cen{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+.foodter .icon{
+      display: flex;
+}
+.foodter .icon .inner-icon{
+      width: 44px;
+      height: 44px;
+      background: #3194DB;
+      margin-left: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #FFF;
+      font-size: 22px;
+      border-radius: 7px;
+}
+.foodter .icon .inner-icon:hover{
+      background: #208bd8;
+}
+/* End Foodter */
