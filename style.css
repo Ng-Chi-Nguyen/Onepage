@@ -58,7 +58,7 @@
 .templete{
       margin-bottom: 100px;
       position: relative;
-      background: url(../BT12/images/BT12-templete_bg.jpg);
+      background: url(images/BT12-templete_bg.jpg);
 }
 .templete .inner-top .inner-title{
       font-size: 70px;
